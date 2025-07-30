@@ -1,0 +1,93 @@
+body{
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+max-width: 600px;
+margin: 20px auto;
+background-color: rgb(59,110,204);
+padding: 20px;
+border-radius: 10px;
+box-shadow: rgb(0,0,0);
+
+
+}
+
+h1
+{
+
+
+text-align: center;
+color: brown;
+
+
+
+}
+
+input,button{
+
+margin: 5px 0;
+padding: 0px;
+font-size: 16px;
+
+
+
+
+}
+
+
+button{
+
+background-color: bisque;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+
+
+
+}
+
+button:hover{
+
+
+    background-color: greenyellow;
+
+}
+
+
+table{
+
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+
+
+
+}
+
+
+th,td{
+
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+
+
+
+}
+
+.edit, .delet{
+
+cursor: pointer;
+color: blueviolet;
+text-decoration: underline;
+
+
+}
+
+.edit:hover{
+    color: black;
+}
+
+.delet:hover{
+    color: red;
+}
